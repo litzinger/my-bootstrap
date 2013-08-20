@@ -1,0 +1,114 @@
+/* ---------------------------------------------------------------------
+Original Author: Brian Litzinger
+Contributors: N/A
+
+Target Browsers: All
+Media Type: Screen, Projection
+Width: Min-Width 768px
+------------------------------------------------------------------------ */
+
+body {
+	/*background-color: orange;*/
+}
+
+.wrapper {
+	padding: 0;
+}
+
+/* ---------------------------------------------------------------------
+ Grid
+ Generated with cssgrid v0.7 at 2013-08-05 16:40:57
+ https://github.com/sumpygump/css-grid-generator
+ cssgrid --units=percent --cols=12 --col-width=45 --gutter=40 --max-width=980
+------------------------------------------------------------------------ */
+.grid:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.grid-col {
+    position: relative;
+    float: left;
+}
+
+.grid-col + .grid-col {
+    margin-left: 4.08163265306%;
+}
+
+.grid-col_1 { width: 4.59183673469%; }
+.grid-col_2 { width: 13.2653061224%; }
+.grid-col_3 { width: 21.9387755102%; }
+.grid-col_4 { width: 30.612244898%; }
+.grid-col_5 { width: 39.2857142857%; }
+.grid-col_6 { width: 47.9591836735%; }
+.grid-col_7 { width: 56.6326530612%; }
+.grid-col_8 { width: 65.306122449%; }
+.grid-col_9 { width: 73.9795918367%; }
+.grid-col_10 { width: 82.6530612245%; }
+.grid-col_11 { width: 91.3265306122%; }
+.grid-col_12 { width: 100%; }
+
+.grid-col_push1 { left: 8.67346938776%; }
+.grid-col_push2 { left: 17.3469387755%; }
+.grid-col_push3 { left: 26.0204081633%; }
+.grid-col_push4 { left: 34.693877551%; }
+.grid-col_push5 { left: 43.3673469388%; }
+.grid-col_push6 { left: 52.0408163265%; }
+.grid-col_push7 { left: 60.7142857143%; }
+.grid-col_push8 { left: 69.387755102%; }
+.grid-col_push9 { left: 78.0612244898%; }
+.grid-col_push10 { left: 86.7346938776%; }
+.grid-col_push11 { left: 95.4081632653%; }
+.grid-col_push12 { left: 100%; }
+
+.grid-col_pull1 { left: -8.67346938776%; }
+.grid-col_pull2 { left: -17.3469387755%; }
+.grid-col_pull3 { left: -26.0204081633%; }
+.grid-col_pull4 { left: -34.693877551%; }
+.grid-col_pull5 { left: -43.3673469388%; }
+.grid-col_pull6 { left: -52.0408163265%; }
+.grid-col_pull7 { left: -60.7142857143%; }
+.grid-col_pull8 { left: -69.387755102%; }
+.grid-col_pull9 { left: -78.0612244898%; }
+.grid-col_pull10 { left: -86.7346938776%; }
+.grid-col_pull11 { left: -95.4081632653%; }
+.grid-col_pull12 { left: -100%; }
+
+.grid-col_prefix1 { margin-left: 8.67346938776%; }
+.grid-col_prefix2 { margin-left: 17.3469387755%; }
+.grid-col_prefix3 { margin-left: 26.0204081633%; }
+.grid-col_prefix4 { margin-left: 34.693877551%; }
+.grid-col_prefix5 { margin-left: 43.3673469388%; }
+.grid-col_prefix6 { margin-left: 52.0408163265%; }
+.grid-col_prefix7 { margin-left: 60.7142857143%; }
+.grid-col_prefix8 { margin-left: 69.387755102%; }
+.grid-col_prefix9 { margin-left: 78.0612244898%; }
+.grid-col_prefix10 { margin-left: 86.7346938776%; }
+.grid-col_prefix11 { margin-left: 95.4081632653%; }
+.grid-col_prefix12 { margin-left: 100%; }
+
+.grid-col_suffix1 { margin-right: 8.67346938776%; }
+.grid-col_suffix2 { margin-right: 17.3469387755%; }
+.grid-col_suffix3 { margin-right: 26.0204081633%; }
+.grid-col_suffix4 { margin-right: 34.693877551%; }
+.grid-col_suffix5 { margin-right: 43.3673469388%; }
+.grid-col_suffix6 { margin-right: 52.0408163265%; }
+.grid-col_suffix7 { margin-right: 60.7142857143%; }
+.grid-col_suffix8 { margin-right: 69.387755102%; }
+.grid-col_suffix9 { margin-right: 78.0612244898%; }
+.grid-col_suffix10 { margin-right: 86.7346938776%; }
+.grid-col_suffix11 { margin-right: 95.4081632653%; }
+.grid-col_suffix12 { margin-right: 100%; }
+
+
+/* ---------------------------------------------------------------------
+ Form Styles
+------------------------------------------------------------------------ */
+input[type="submit"].btn-block,
+input[type="reset"].btn-block,
+input[type="button"].btn-block {
+    width: 100%;
+}

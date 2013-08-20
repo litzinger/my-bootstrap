@@ -1,0 +1,20 @@
+/* ---------------------------------------------------------------------
+Original Author:  Brian Litzinger
+Contributors: N/A
+
+Target Browsers: All
+Media Type: Screen, Projection
+Width: Min-Width 980px
+------------------------------------------------------------------------ */
+body {
+	/*background-color: red;*/
+}
+
+.wrapper-full {
+    min-width: 980px;
+}
+
+.wrapper {
+	max-width: 980px;
+    margin: 0 auto;
+}
